@@ -90,7 +90,7 @@ const Dashboard = () => {
 
   const handleLogout = () => {
     sessionStorage.removeItem("currentUser");
-    navigate("/login");
+    navigate("/land");
   };
 
   const formatDate = (dateString) => {
