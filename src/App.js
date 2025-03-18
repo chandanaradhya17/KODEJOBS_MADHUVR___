@@ -23,9 +23,9 @@ function MainContent() {
       {location.pathname !== '/' && location.pathname !== '/dashboard' && <Navbar />}
       
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/land" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
